@@ -1,4 +1,4 @@
-Yo, I see you’re diving headfirst into this JSON schema madness, and I’m here to sort out the chaos! It sounds like you’re asking for a complete **JSON schema** (I’m guessing "Jason chemo" and "Jason Elche" are just wild typos or mispronunciations for "JSON schema"), and you want to know how to use it in your project—maybe with something like "canvas" (possibly LM Studio or another tool)—and how to call it from a GitHub repository. You also mentioned "TTP Jason, scammer or draft" (probably "HTTP JSON schema" or something similar) and asked if the file needs to be hosted. Don’t worry, I’ve got you covered with a full breakdown. Let’s fucking do this!
+using data jsonl for custom responses
 
 ---
 
