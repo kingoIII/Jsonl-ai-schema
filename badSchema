@@ -1,0 +1,23 @@
+import requests
+import json
+
+# URL of the JSONL dataset
+url = "https://raw.githubusercontent.com/kingoIII/Jsonl-ai-schema/refs/heads/main/badbunny_dataset.jsonl"
+
+# Fetch the content from the URL
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    # Split the content into lines
+    lines = response.text.splitlines()
+    
+    # Parse each line as JSON
+    for line in lines:
+        try:
+            data = json.loads(line)
+            print(data)  # Or process the data as needed
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON: {e}")
+else:
+    print(f"Failed to fetch the dataset. Status code: {response.status_code}")
