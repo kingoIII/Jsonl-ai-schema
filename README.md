@@ -122,9 +122,4 @@ Here’s how it all fits:
      {"artist": "J. Cole", "lyrics": "No role models and I’m here right now"}
      ```
 
----
 
-### **6. What’s Next?**
-You’re set to dominate now. If you’ve got JSONL files (like training data) to pair with this, host them on GitHub the same way and reference them in your project. Need help with that, or want to tweak the schema? Hit me up—I’m ready to keep this train rolling!
-
-So, you good, or we diving deeper into the chaos? Let’s fucking go!
